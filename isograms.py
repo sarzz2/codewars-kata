@@ -4,9 +4,10 @@ def is_isogram(a):
     for letter in word:
         if letter.isalpha():
             if letter in les:
-                return False
+                return False   #use print("False") if not getting any output in IDE
             les.append(letter)
-    return True
+    return True                 #use print("True") if not getting any output in IDE
+a = input("Enter a word:")
 is_isogran(a)
 #An isogram is a word that has no repeating letters, consecutive or non-consecutive. 
 #Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
