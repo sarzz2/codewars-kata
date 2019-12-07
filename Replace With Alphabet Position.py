@@ -1,3 +1,5 @@
+# replacing each alphabet in a string with number
+
 from string import ascii_lowercase
 
 LETTERS = {letter: str(index) for index, letter in enumerate(ascii_lowercase, start=1)}
