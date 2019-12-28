@@ -17,12 +17,5 @@ def expression_matter(a,b,c):
     ans5 = a+b+c
     large = ans1
     # Comparing the largest
-    if ans2 > large:
-        large = ans2
-    if ans3 > large:
-        large = ans3
-    if ans4 > large:
-        large = ans4
-    if ans5 > large:
-        large = ans5
-    print(large)
+      print(max(ans5, ans4, ans3, ans2, ans1))
+
